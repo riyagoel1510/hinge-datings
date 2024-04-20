@@ -21,17 +21,21 @@ Hinge Dating is a personal project aimed at creating a platform where random ind
 
 ## For Developers
 
-Firstly add the followind data in the respective files
+```
+    git clone https://github.com/Moksh91119/hinge-dating.git  ## Clone the repository
+```
+
+Firstly add the following data in the respective files
 
 - in **api/.env** add your MongoDb database connection URL
 - in **datingapp/env.js** add your IPv4 address
 - in **datingweb/.env** add your IPv4 address
 
 Now open 3 terminals to run app, web, and backend at the same time
+
 in the first terminal run the following commands
 
 ```
-    git clone https://github.com/Moksh91119/hinge-dating.git  ## Clone the repository
     cd ./hinge-dating/api ## navigate to the backend folder
     npm install ## install dependencies
     npm start ## start the server
