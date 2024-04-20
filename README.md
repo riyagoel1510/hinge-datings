@@ -46,7 +46,7 @@ in the second terminal run the following commands
 ```
     cd ./hinge-dating/datingweb ## navigate to the web folder
     npm install ## install dependencies
-    npm run dev ## start the server
+    npm run dev ## start the web
 ```
 
 in the third terminal run the following commands
@@ -54,7 +54,7 @@ in the third terminal run the following commands
 ```
     cd ./hinge-dating/datingapp ## navigate to the app folder
     npm install ## install dependencies
-    npx expo start ## start the server
+    npx expo start ## start the app
 ```
 
 ## Contributing
